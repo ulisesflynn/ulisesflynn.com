@@ -17,6 +17,9 @@ EXPOSE 80 443 2015
 VOLUME /root/.caddy
 WORKDIR /srv
 
+ENV CADDYPATH="/etc/caddycerts"
+VOLUME $HOME/.caddy /etc/caddycerts
+
 COPY Caddyfile /etc/Caddyfile
 COPY index.html /srv/index.html
 COPY package.json /srv/package.json
