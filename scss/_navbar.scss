@@ -42,18 +42,18 @@
     }
   }
   @media (min-width: 992px) {
-    border-color: fade-out(white, .7);
+    border-color: fade-out(#BBBBBB, .7);
     background-color: transparent;
     .navbar-brand {
-      color: fade-out(white, .3);
+      color: fade-out(#BBBBBB, .3);
       &:focus,
       &:hover {
-        color: white;
+        color: #BBBBBB;
       }
     }
     .navbar-nav > li.nav-item > a.nav-link,
     .navbar-nav > li.nav-item > a.nav-link:focus {
-      color: fade-out(white, .3);
+      color: fade-out(#BBBBBB, .3);
       &:hover {
         color: white;
       }
