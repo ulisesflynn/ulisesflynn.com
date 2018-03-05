@@ -14,11 +14,10 @@ RUN curl --silent --show-error --fail --location \
          && /usr/bin/caddy -version
 
 EXPOSE 80 443 2015
-VOLUME /root/.caddy
 WORKDIR /srv
 
 ENV CADDYPATH="/etc/caddycerts"
-VOLUME $HOME/.caddy /etc/caddycerts
+VOLUME etc/caddycerts /etc/caddycerts
 
 COPY Caddyfile /etc/Caddyfile
 COPY index.html /srv/index.html
