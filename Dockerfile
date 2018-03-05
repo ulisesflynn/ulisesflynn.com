@@ -24,6 +24,7 @@ COPY index.html /srv/index.html
 COPY package.json /srv/package.json
 COPY css /srv/css
 COPY img /srv/img
+COPY docs /srv/docs
 COPY js /srv/js
 COPY node_modules /srv/node_modules
 COPY scss /srv/scss

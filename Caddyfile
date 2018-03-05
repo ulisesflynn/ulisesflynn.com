@@ -2,6 +2,5 @@ http://ulisesflynn.com {
  redir https://ulisesflynn.com
 }
 https://ulisesflynn.com {
-  basicauth /. mike django
-  gzip
+
 }
